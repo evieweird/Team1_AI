@@ -17,12 +17,6 @@ Both use test-time augmentation (TTA) with horizontal and vertical flips for eva
 
 ```
 ├── Team1_AI.ipynb          # Full notebook (run in Google Colab)
-├── prepare_dataset.py      # Download and preprocess thyroid dataset
-├── dataset.py              # UltrasoundDataset class + augmentations + get_loaders()
-├── train_unet.py           # UNet++ training, evaluation, and visualization
-├── train_segformer.py      # SegFormer training, evaluation, and visualization
-├── apply_on_busbra.py      # Cross-domain evaluation on breast ultrasound
-├── requirements.txt        # Python dependencies
 └── README.md
 ```
 
