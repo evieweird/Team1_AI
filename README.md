@@ -5,8 +5,8 @@ Thyroid Nodule Segmentation: CNN vs ViT
 Comparing UNet++ (CNN) and SegFormer (ViT) for ultrasound image segmentation, trained on thyroid nodule data and evaluated cross-domain on breast ultrasound.
 Overview
 This project trains two segmentation architectures on the DDTI Thyroid Ultrasound dataset, then tests how well each generalizes to the BUS-BRA Breast Ultrasound dataset — without any fine-tuning on breast data.
-Models
 
+Models
 UNet++ with EfficientNet-B4 encoder (pretrained on ImageNet), binary output with BCEWithLogitsLoss + Dice loss
 SegFormer with MiT-B2 backbone, 2-class output with CrossEntropyLoss + Dice loss
 
