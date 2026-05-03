@@ -47,22 +47,6 @@ The Colab notebook is organized into 8 cells:
 3. Upload your `kaggle.json` to Colab when prompted
 4. Run cells sequentially
 
-### Running the Scripts
-
-```bash
-pip install -r requirements.txt
-
-# 1. Prepare thyroid dataset
-python prepare_dataset.py
-
-# 2. Train models
-python train_unet.py
-python train_segformer.py
-
-# 3. Cross-domain evaluation on breast data
-python apply_on_busbra.py
-```
-
 ## Requirements
 
 ```
